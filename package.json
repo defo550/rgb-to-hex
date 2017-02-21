@@ -1,0 +1,41 @@
+{
+  "name": "@defo550/hex-to-rgb",
+  "version": "0.0.0-development",
+  "description": "Convert rgb(a) color to hexadecimal.",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defo550/rgb-to-hex.git"
+  },
+  "keywords": [
+    "rgb",
+    "rgba",
+    "hex",
+    "hexadecimal",
+    "color",
+    "convert"
+  ],
+  "author": "Christopher DeFelice <defo550@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defo550/rgb-to-hex/issues"
+  },
+  "homepage": "https://github.com/defo550/rgb-to-hex#readme",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "1.2.0",
+    "semantic-release-cli": "3.0.3",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
