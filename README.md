@@ -1,1 +1,1 @@
-# rgb-to-hex
+# Convert RGB color to HEX
