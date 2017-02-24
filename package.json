@@ -1,6 +1,6 @@
 {
   "name": "@defo550/rgb-to-hex",
-  "version": "1.0.0-development",
+  "version": "0.0.0-development",
   "description": "Convert rgb color to hexadecimal.",
   "main": "src/index.js",
   "scripts": {
@@ -38,13 +38,12 @@
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
     "nyc": "10.1.2",
-    "semantic-release": "^6.3.2",
-    "semantic-release-cli": "3.0.3"
-  },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+    "semantic-release": "^6.3.2"
   },
   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "pre-commit": "npm run test"
     }
