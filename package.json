@@ -1,6 +1,6 @@
 {
   "name": "@defo550/rgb-to-hex",
-  "version": "0.0.0-development",
+  "version": "1.0.0-development",
   "description": "Convert rgb color to hexadecimal.",
   "main": "src/index.js",
   "scripts": {
